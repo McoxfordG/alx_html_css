@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Source Sans 3';
+}
+.page-1 {
+    background-image: url(/css_advanced/image/Object.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+header nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px 0;
+}
+nav ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    align-items: center;
+    justify-content: space-around;
+}
+nav ul li {
+    margin: 0 20px;
+    list-style-type: none;
+}
+nav ul li a {
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+}
+.intro {
+    text-align: center;
+    margin-top: 50px;
+}
+.intro h1 {
+    font-size: 120px;
+    color: white;
+    margin-bottom: 20px;
+}
+.intro span {
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    padding: 0 20px;
+}
+.intro button {
+    font-weight: bold;
+    display: block;
+    margin: 40px auto;
+    padding: 10px 20px;
+    border-radius: 50px;
+    color: white;
+    background-color: purple;
+    box-shadow: 2px 0 purple;
+    border: none ;
+}
+.pros {
+    margin-top: 170px;
+}
+.pros h2 {
+    text-align: center;
+    font-weight: 300;
+    color: white;
+    font-size: 32px;
+}
+.pros h2 span {
+    font-weight: bold;
+    color: purple;
+}
+.pros-celeb {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 50px;
+}
+.philip, .nannie, .bruce, .henry {
+    color: white;
+    text-align: center;
+    margin: 0 50px;
+}
+.bruce img {
+    border-radius: 100%;
+}
+.philip, .nannie, .bruce, .henry, p {
+    font-style: italic;
+    font-size: 16px;
+} 
+.Testimonial {
+   background-color: purple;
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: center;
+   padding: 100px;
+}
+.Testimonial blockquote, .Testimonial p, .Testimonial h3 {
+    color: white;
+    font-size: 22px;
+    margin: 0 80px;
+}
+.Testimonial blockquote {
+    width: 800px;
+    margin-bottom: 20px;
+}
+.Testimonial p {
+    font-style: italic;
+}
