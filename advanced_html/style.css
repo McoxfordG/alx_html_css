@@ -113,3 +113,165 @@ nav ul li a {
 .Testimonial p {
     font-style: italic;
 }
+.tutorial {
+    margin: 100px 0;
+}
+.tutorial h2 {
+    text-align: center;
+    margin: 50px 0;
+    font-weight: 300;
+}
+.tutorial h2 span {
+    color: purple;
+    font-weight: bold;
+}
+.t-1, .t-2, .t-3, .t-4 {
+    width: 255px;
+    margin: 0 20px;
+}
+.tutorial-main {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+.tutorial-main h3 {
+    text-align: left;
+    font-size: 16px;
+}
+.tutorial-main p {
+    text-align: left;
+    color: grey;
+    font-size: 14px;
+    width: 260px;
+}
+.someone img {
+    width: 8%;
+}
+.someone {
+    display: flex;
+    margin: 10px 0;
+    align-items: center;
+}
+.someone h4 {
+    font-size: 14px;
+    color: purple;
+    margin: 0 10px;
+}
+.star-main {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+.star-main p {
+    text-align: right;
+    color: purple;
+}
+.star {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    color: purple ;
+}
+.last {
+    color: gray !important;
+}
+.fa-solid {
+    margin: 0 2px;
+}
+.membership {
+    background-color: darkblue ;
+    padding: 50px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.membership h2 {
+    font-size: 32px;
+    font-weight: 300;
+    margin-bottom: 30px;
+    text-align: center;
+    color: white;
+}
+.membership span {
+    color: purple;
+    font-weight: bold;
+}
+.membership-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: white;
+}
+.first, .second, .third, .fourth {
+    display: flex ;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 220px;
+    margin: 30px 10px;
+}
+.membership-content h3 {
+    font-size: 18px;
+    margin: 10px 0;
+}
+.membership-content p {
+    font-size: 14px;
+}
+.membership button {
+    font-weight: bold;
+    display: block;
+    margin-top: 40px;
+    padding: 10px 20px;
+    border-radius: 50px;
+    color: white;
+    background-color: purple;
+    border: none;
+}
+.membership button:hover {
+    cursor: pointer;
+    background-color: yellow;
+    color: red;
+    transition: 5s ease-in-out;
+}
+.faq {
+    margin: 100px 0;
+}
+.faq h2 {
+    font-size: 60px;
+    text-align: center;
+    font-weight: 10;
+    margin-bottom: 20px;
+}
+.faq-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.top, .down {
+    width: 400px;
+    margin: 0 100px;
+}
+.faq-content h3 {
+    font-size: 16px;
+    margin: 30px 0;
+}
+.final {
+    font-size: 14px;
+    color: grey;
+}
+.foote {
+    background-color: darkblue;
+}
+.my-icons {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 80px;
+}
+.foote p {
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 30px;
+}
