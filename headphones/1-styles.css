@@ -10,18 +10,24 @@
     background-size: cover;
 }
 .second-top {
-    margin-top: 50px;
-    padding-top: 150px;
+    margin-top: 20px;
+    padding-top: 10px;
     text-align: center;
+    font-family: "Source Sans Pro";
 }
 .second-top h2 {
     margin-bottom: 20px;
+    font-weight: 400;
+}
+.second-top p {
+    font-size: 16px;
+    font-weight: 400;
 }
 .second-down {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 100px;
+    padding: 100px 0;
     flex-wrap: wrap;
 }
 .one, .two, .three, .four {
@@ -32,7 +38,13 @@
 }
 .second-down h3 {
     margin: 10px 0;
+    font-size: 18px;
+    font-weight: 400;
 }
 .second-down p {
     line-height: 20px;
+    text-align: center;
+    font-family: 'Source Sans Pro';
+    font-size: 14px;
+    font-weight: 400;
 }
