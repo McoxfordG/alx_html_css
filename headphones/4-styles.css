@@ -1,0 +1,30 @@
+*{
+
+}
+footer {
+    background-color: #071629;
+    height: 249px;
+}
+.footer-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top:70px ;
+}
+.footer-top ul {
+    display: flex;
+
+}
+.footer-top ul li {
+   list-style-type: none;
+}
+.footer-top ul li a {
+    color: white;
+    padding: 0 10px;
+    list-style-type: none;
+}
+footer p {
+    color: #f5eeee;
+    text-align: center;
+    padding-top: 50px;
+}
