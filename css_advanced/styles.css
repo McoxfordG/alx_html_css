@@ -5,7 +5,7 @@
     font-family: 'Source Sans 3';
 }
 .page-1 {
-    background-image: url(/css_advanced/image/Object.png);
+    background-image: url(../css_advanced/image/Object.png);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
